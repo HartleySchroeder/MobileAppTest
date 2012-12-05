@@ -16,12 +16,12 @@
 
         <li data-role="fieldcontain">
             @Html.LabelFor(m => m.UserName)
-            @Html.TextBoxFor(m => m.UserName)            
+            @Html.TextBoxFor(m => m.UserName, new { placeholder = "User Name" })            
         </li>
 
         <li data-role="fieldcontain">
             @Html.LabelFor(m => m.Email)
-            @Html.TextBoxFor(m => m.Email)            
+            @Html.TextBoxFor(m => m.Email, new { placeholder = "john.doe@example.com" })            
         </li>
 
         <li data-role="fieldcontain">
